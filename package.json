@@ -10,7 +10,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.16.2",
+    "fs": "0.0.1-security",
     "lodash": "^4.17.4",
+    "regex": "^0.1.1",
     "validate-ip": "^1.0.1",
     "vue": "^2.3.4",
     "vue-router": "^2.6.0"

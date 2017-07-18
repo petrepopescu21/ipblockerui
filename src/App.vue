@@ -12,7 +12,7 @@
         </div>
       </div>
     </section>
-    <navbar></navbar>
+    <!--<navbar></navbar>-->
     <transition :name="transitionName">
       <router-view class="child-view"></router-view>
     </transition>

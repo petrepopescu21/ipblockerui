@@ -9,11 +9,6 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'IpList',
-      component: IpList
-    },
-    {
-      path: '/blockIp',
       name: 'IpBlock',
       component: IpBlock
     }

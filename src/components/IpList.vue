@@ -1,5 +1,15 @@
 <template>
-  <h1>Hello back</h1>
+  <div class="box">
+            <article class="media">
+                <div class="media-content">
+                <div class="content">
+                    <p>
+                    <strong>{{ip}}</strong>
+                    </p>
+                </div>
+                </div>
+            </article>
+        </div>
 </template>
 
 <script>
@@ -9,7 +19,10 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  }
+  },
+  props: 
+    ['ip']
+  
 }
 </script>
 
